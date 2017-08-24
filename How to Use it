@@ -1,0 +1,13 @@
+1. You can download the hypev-backup.ps1 (using this link,https://raw.githubusercontent.com/hostingrajamani/Hype-V_BackupScript/master/hypev-backup.ps1) 
+
+2. Place this file in C:\Script
+
+3. Update the following variable, $dest, $FTPHost , $FTPUser, $FTPPass (As needed)
+If you don't want FTP, Just want to take only backup then you can fill up some junk values above.
+
+4. Run the script using powershell.exe -ExecutionPolicy ByPass -File C:\Script\fullbackup.ps1 or Add it to scheduler 
+
+We use this in our Hyper-V Windows VPS (https://www.hostingraja.in/windows-vps-hosting/) Production server, So you can use it confidently. 
+If there is any issue, Please comment it or raise a issue, we will look into it.
+
+
