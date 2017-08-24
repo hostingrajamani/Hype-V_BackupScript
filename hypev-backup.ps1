@@ -1,8 +1,13 @@
 #run like below from command line
 #powershell.exe -ExecutionPolicy ByPass -File C:\Script\fullbackup.ps1
 
+# Place this file in C:\Script
+
+#Update the following variable, $dest, $FTPHost , $FTPUser, $FTPPass
+
+
 # Start logging
-Start-Transcript -Path C:\Scripts\fullbackup.log
+Start-Transcript -Path C:\Script\fullbackup.log
 
 ## Powershell Script to Shutdown and Export Hyper-V 2012 VMs, one at a time.  
 
